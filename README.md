@@ -4,7 +4,7 @@ A simple script that does the following:
 - Adds sites to a site collection (optional)
 - Sets a site to be the primary
 - Polls the site factory to check when the switch is complete
-- Reports back when switch is complete and the time taken (in sseconds)
+- Reports back when switch is complete and the time taken (in seconds)
 
 # Install/setup
 
