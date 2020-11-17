@@ -166,7 +166,7 @@ function request($url, $method, $config, $form_params = []) {
 
   $parameters = get_request_auth($config);
   if ($form_params) {
-    $parameters['form_params'] = $form_params;
+    $parameters['json'] = $form_params;
   }
 
   try {
